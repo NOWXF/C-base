@@ -1,0 +1,12 @@
+#OBJS=f1.o f2.o main.o
+#CFLAGS=-Wall -g -c
+#CFLAGS+=-I include
+include config.mk
+test:$(OBJS)
+	gcc $(OBJS) -o $@
+f1.o:f1.c
+f2.o:f2.c
+main.o:main.c
+.PHONY:clean
+clean:
+	rm *.o test -f
