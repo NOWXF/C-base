@@ -1,0 +1,8 @@
+a             n.one 
+an            n.one
+about         adv.include
+be            v.is/am/are
+begin         v.start
+can           v.do abilitable
+dog           n.a pet
+do            v.action
